@@ -4,11 +4,13 @@ extends Node2D
 var Partit = preload("res://Escenes/Camp.tscn")
 
 func _ready():
-	pass # Replace with function body.
-
+	$Huma.visible = 0
+	$Robot.visible = 0
 
 func _on_Inici_pressed():
-	get_tree().change_scene_to(Partit)
+	$Inici.visible = 0
+	$Huma.visible = 1
+	$Robot.visible = 1
 
 
 func _on_Surt_pressed():
