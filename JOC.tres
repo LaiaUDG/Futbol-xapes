@@ -1,15 +1,10 @@
-[gd_scene load_steps=9 format=2]
+[gd_resource type="TileSet" load_steps=2 format=2]
 
-[ext_resource path="res://Scripts/Inici.gd" type="Script" id=1]
-[ext_resource path="res://FONT.tres" type="DynamicFont" id=2]
-[ext_resource path="res://aAvocadoTaco.ttf" type="DynamicFontData" id=3]
-[ext_resource path="res://Assets/xapa 2.png" type="Texture" id=4]
-[ext_resource path="res://Assets/xapa 1.png" type="Texture" id=5]
-[ext_resource path="res://Assets/groundGrass_mownWide.png" type="Texture" id=6]
+[ext_resource path="res://Assets/groundGrass_mownWide.png" type="Texture" id=1]
 
-[sub_resource type="TileSet" id=2]
+[resource]
 0/name = "groundGrass_mownWide.png 0"
-0/texture = ExtResource( 6 )
+0/texture = ExtResource( 1 )
 0/tex_offset = Vector2( 0, 0 )
 0/modulate = Color( 1, 1, 1, 1 )
 0/region = Rect2( 64, 0, 64, 64 )
@@ -23,7 +18,7 @@
 0/shapes = [  ]
 0/z_index = 0
 1/name = "groundGrass_mownWide.png 1"
-1/texture = ExtResource( 6 )
+1/texture = ExtResource( 1 )
 1/tex_offset = Vector2( 0, 0 )
 1/modulate = Color( 1, 1, 1, 1 )
 1/region = Rect2( 128, 0, 64, 64 )
@@ -37,7 +32,7 @@
 1/shapes = [  ]
 1/z_index = 0
 2/name = "groundGrass_mownWide.png 2"
-2/texture = ExtResource( 6 )
+2/texture = ExtResource( 1 )
 2/tex_offset = Vector2( 0, 0 )
 2/modulate = Color( 1, 1, 1, 1 )
 2/region = Rect2( 192, 0, 64, 64 )
@@ -51,7 +46,7 @@
 2/shapes = [  ]
 2/z_index = 0
 3/name = "groundGrass_mownWide.png 3"
-3/texture = ExtResource( 6 )
+3/texture = ExtResource( 1 )
 3/tex_offset = Vector2( 0, 0 )
 3/modulate = Color( 1, 1, 1, 1 )
 3/region = Rect2( 256, 0, 64, 64 )
@@ -65,7 +60,7 @@
 3/shapes = [  ]
 3/z_index = 0
 4/name = "groundGrass_mownWide.png 4"
-4/texture = ExtResource( 6 )
+4/texture = ExtResource( 1 )
 4/tex_offset = Vector2( 0, 0 )
 4/modulate = Color( 1, 1, 1, 1 )
 4/region = Rect2( 64, 64, 64, 64 )
@@ -79,7 +74,7 @@
 4/shapes = [  ]
 4/z_index = 0
 5/name = "groundGrass_mownWide.png 5"
-5/texture = ExtResource( 6 )
+5/texture = ExtResource( 1 )
 5/tex_offset = Vector2( 0, 0 )
 5/modulate = Color( 1, 1, 1, 1 )
 5/region = Rect2( 256, 64, 64, 64 )
@@ -93,7 +88,7 @@
 5/shapes = [  ]
 5/z_index = 0
 6/name = "groundGrass_mownWide.png 6"
-6/texture = ExtResource( 6 )
+6/texture = ExtResource( 1 )
 6/tex_offset = Vector2( 0, 0 )
 6/modulate = Color( 1, 1, 1, 1 )
 6/region = Rect2( 128, 64, 64, 64 )
@@ -107,7 +102,7 @@
 6/shapes = [  ]
 6/z_index = 0
 7/name = "groundGrass_mownWide.png 7"
-7/texture = ExtResource( 6 )
+7/texture = ExtResource( 1 )
 7/tex_offset = Vector2( 0, 0 )
 7/modulate = Color( 1, 1, 1, 1 )
 7/region = Rect2( 192, 64, 64, 64 )
@@ -121,7 +116,7 @@
 7/shapes = [  ]
 7/z_index = 0
 8/name = "groundGrass_mownWide.png 8"
-8/texture = ExtResource( 6 )
+8/texture = ExtResource( 1 )
 8/tex_offset = Vector2( 0, 0 )
 8/modulate = Color( 1, 1, 1, 1 )
 8/region = Rect2( 64, 128, 64, 64 )
@@ -135,7 +130,7 @@
 8/shapes = [  ]
 8/z_index = 0
 9/name = "groundGrass_mownWide.png 9"
-9/texture = ExtResource( 6 )
+9/texture = ExtResource( 1 )
 9/tex_offset = Vector2( 0, 0 )
 9/modulate = Color( 1, 1, 1, 1 )
 9/region = Rect2( 128, 128, 64, 64 )
@@ -149,7 +144,7 @@
 9/shapes = [  ]
 9/z_index = 0
 10/name = "groundGrass_mownWide.png 10"
-10/texture = ExtResource( 6 )
+10/texture = ExtResource( 1 )
 10/tex_offset = Vector2( 0, 0 )
 10/modulate = Color( 1, 1, 1, 1 )
 10/region = Rect2( 192, 128, 64, 64 )
@@ -163,7 +158,7 @@
 10/shapes = [  ]
 10/z_index = 0
 11/name = "groundGrass_mownWide.png 11"
-11/texture = ExtResource( 6 )
+11/texture = ExtResource( 1 )
 11/tex_offset = Vector2( 0, 0 )
 11/modulate = Color( 1, 1, 1, 1 )
 11/region = Rect2( 256, 128, 64, 64 )
@@ -177,7 +172,7 @@
 11/shapes = [  ]
 11/z_index = 0
 12/name = "groundGrass_mownWide.png 12"
-12/texture = ExtResource( 6 )
+12/texture = ExtResource( 1 )
 12/tex_offset = Vector2( 0, 0 )
 12/modulate = Color( 1, 1, 1, 1 )
 12/region = Rect2( 256, 192, 64, 64 )
@@ -191,7 +186,7 @@
 12/shapes = [  ]
 12/z_index = 0
 13/name = "groundGrass_mownWide.png 13"
-13/texture = ExtResource( 6 )
+13/texture = ExtResource( 1 )
 13/tex_offset = Vector2( 0, 0 )
 13/modulate = Color( 1, 1, 1, 1 )
 13/region = Rect2( 192, 192, 64, 64 )
@@ -205,7 +200,7 @@
 13/shapes = [  ]
 13/z_index = 0
 14/name = "groundGrass_mownWide.png 14"
-14/texture = ExtResource( 6 )
+14/texture = ExtResource( 1 )
 14/tex_offset = Vector2( 0, 0 )
 14/modulate = Color( 1, 1, 1, 1 )
 14/region = Rect2( 128, 192, 64, 64 )
@@ -219,7 +214,7 @@
 14/shapes = [  ]
 14/z_index = 0
 15/name = "groundGrass_mownWide.png 15"
-15/texture = ExtResource( 6 )
+15/texture = ExtResource( 1 )
 15/tex_offset = Vector2( 0, 0 )
 15/modulate = Color( 1, 1, 1, 1 )
 15/region = Rect2( 64, 192, 64, 64 )
@@ -233,7 +228,7 @@
 15/shapes = [  ]
 15/z_index = 0
 16/name = "groundGrass_mownWide.png 16"
-16/texture = ExtResource( 6 )
+16/texture = ExtResource( 1 )
 16/tex_offset = Vector2( 0, 0 )
 16/modulate = Color( 1, 1, 1, 1 )
 16/region = Rect2( 320, 0, 64, 64 )
@@ -247,7 +242,7 @@
 16/shapes = [  ]
 16/z_index = 0
 17/name = "groundGrass_mownWide.png 17"
-17/texture = ExtResource( 6 )
+17/texture = ExtResource( 1 )
 17/tex_offset = Vector2( 0, 0 )
 17/modulate = Color( 1, 1, 1, 1 )
 17/region = Rect2( 384, 0, 64, 64 )
@@ -261,7 +256,7 @@
 17/shapes = [  ]
 17/z_index = 0
 18/name = "groundGrass_mownWide.png 18"
-18/texture = ExtResource( 6 )
+18/texture = ExtResource( 1 )
 18/tex_offset = Vector2( 0, 0 )
 18/modulate = Color( 1, 1, 1, 1 )
 18/region = Rect2( 384, 64, 64, 64 )
@@ -275,7 +270,7 @@
 18/shapes = [  ]
 18/z_index = 0
 19/name = "groundGrass_mownWide.png 19"
-19/texture = ExtResource( 6 )
+19/texture = ExtResource( 1 )
 19/tex_offset = Vector2( 0, 0 )
 19/modulate = Color( 1, 1, 1, 1 )
 19/region = Rect2( 320, 64, 64, 64 )
@@ -289,7 +284,7 @@
 19/shapes = [  ]
 19/z_index = 0
 20/name = "groundGrass_mownWide.png 20"
-20/texture = ExtResource( 6 )
+20/texture = ExtResource( 1 )
 20/tex_offset = Vector2( 0, 0 )
 20/modulate = Color( 1, 1, 1, 1 )
 20/region = Rect2( 576, 0, 64, 64 )
@@ -303,7 +298,7 @@
 20/shapes = [  ]
 20/z_index = 0
 21/name = "groundGrass_mownWide.png 21"
-21/texture = ExtResource( 6 )
+21/texture = ExtResource( 1 )
 21/tex_offset = Vector2( 0, 0 )
 21/modulate = Color( 1, 1, 1, 1 )
 21/region = Rect2( 512, 0, 64, 64 )
@@ -317,7 +312,7 @@
 21/shapes = [  ]
 21/z_index = 0
 22/name = "groundGrass_mownWide.png 22"
-22/texture = ExtResource( 6 )
+22/texture = ExtResource( 1 )
 22/tex_offset = Vector2( 0, 0 )
 22/modulate = Color( 1, 1, 1, 1 )
 22/region = Rect2( 448, 0, 64, 64 )
@@ -331,7 +326,7 @@
 22/shapes = [  ]
 22/z_index = 0
 23/name = "groundGrass_mownWide.png 23"
-23/texture = ExtResource( 6 )
+23/texture = ExtResource( 1 )
 23/tex_offset = Vector2( 0, 0 )
 23/modulate = Color( 1, 1, 1, 1 )
 23/region = Rect2( 448, 64, 64, 64 )
@@ -345,7 +340,7 @@
 23/shapes = [  ]
 23/z_index = 0
 24/name = "groundGrass_mownWide.png 24"
-24/texture = ExtResource( 6 )
+24/texture = ExtResource( 1 )
 24/tex_offset = Vector2( 0, 0 )
 24/modulate = Color( 1, 1, 1, 1 )
 24/region = Rect2( 448, 128, 64, 64 )
@@ -359,7 +354,7 @@
 24/shapes = [  ]
 24/z_index = 0
 25/name = "groundGrass_mownWide.png 25"
-25/texture = ExtResource( 6 )
+25/texture = ExtResource( 1 )
 25/tex_offset = Vector2( 0, 0 )
 25/modulate = Color( 1, 1, 1, 1 )
 25/region = Rect2( 512, 128, 64, 64 )
@@ -373,7 +368,7 @@
 25/shapes = [  ]
 25/z_index = 0
 26/name = "groundGrass_mownWide.png 26"
-26/texture = ExtResource( 6 )
+26/texture = ExtResource( 1 )
 26/tex_offset = Vector2( 0, 0 )
 26/modulate = Color( 1, 1, 1, 1 )
 26/region = Rect2( 576, 128, 64, 64 )
@@ -387,7 +382,7 @@
 26/shapes = [  ]
 26/z_index = 0
 27/name = "groundGrass_mownWide.png 27"
-27/texture = ExtResource( 6 )
+27/texture = ExtResource( 1 )
 27/tex_offset = Vector2( 0, 0 )
 27/modulate = Color( 1, 1, 1, 1 )
 27/region = Rect2( 576, 64, 64, 64 )
@@ -401,7 +396,7 @@
 27/shapes = [  ]
 27/z_index = 0
 28/name = "groundGrass_mownWide.png 28"
-28/texture = ExtResource( 6 )
+28/texture = ExtResource( 1 )
 28/tex_offset = Vector2( 0, 0 )
 28/modulate = Color( 1, 1, 1, 1 )
 28/region = Rect2( 0, 64, 64, 64 )
@@ -415,7 +410,7 @@
 28/shapes = [  ]
 28/z_index = 0
 29/name = "groundGrass_mownWide.png 29"
-29/texture = ExtResource( 6 )
+29/texture = ExtResource( 1 )
 29/tex_offset = Vector2( 0, 0 )
 29/modulate = Color( 1, 1, 1, 1 )
 29/region = Rect2( 0, 0, 64, 64 )
@@ -429,7 +424,7 @@
 29/shapes = [  ]
 29/z_index = 0
 30/name = "groundGrass_mownWide.png 30"
-30/texture = ExtResource( 6 )
+30/texture = ExtResource( 1 )
 30/tex_offset = Vector2( 0, 0 )
 30/modulate = Color( 1, 1, 1, 1 )
 30/region = Rect2( 192, 320, 64, 64 )
@@ -443,7 +438,7 @@
 30/shapes = [  ]
 30/z_index = 0
 31/name = "groundGrass_mownWide.png 31"
-31/texture = ExtResource( 6 )
+31/texture = ExtResource( 1 )
 31/tex_offset = Vector2( 0, 0 )
 31/modulate = Color( 1, 1, 1, 1 )
 31/region = Rect2( 192, 832, 64, 64 )
@@ -457,7 +452,7 @@
 31/shapes = [  ]
 31/z_index = 0
 32/name = "groundGrass_mownWide.png 32"
-32/texture = ExtResource( 6 )
+32/texture = ExtResource( 1 )
 32/tex_offset = Vector2( 0, 0 )
 32/modulate = Color( 1, 1, 1, 1 )
 32/region = Rect2( 640, 32, 32, 32 )
@@ -471,7 +466,7 @@
 32/shapes = [  ]
 32/z_index = 0
 33/name = "groundGrass_mownWide.png 33"
-33/texture = ExtResource( 6 )
+33/texture = ExtResource( 1 )
 33/tex_offset = Vector2( 0, 0 )
 33/modulate = Color( 1, 1, 1, 1 )
 33/region = Rect2( 672, 288, 32, 32 )
@@ -485,7 +480,7 @@
 33/shapes = [  ]
 33/z_index = 0
 34/name = "groundGrass_mownWide.png 34"
-34/texture = ExtResource( 6 )
+34/texture = ExtResource( 1 )
 34/tex_offset = Vector2( 0, 0 )
 34/modulate = Color( 1, 1, 1, 1 )
 34/region = Rect2( 672, 128, 32, 32 )
@@ -499,7 +494,7 @@
 34/shapes = [  ]
 34/z_index = 0
 35/name = "groundGrass_mownWide.png 35"
-35/texture = ExtResource( 6 )
+35/texture = ExtResource( 1 )
 35/tex_offset = Vector2( 0, 0 )
 35/modulate = Color( 1, 1, 1, 1 )
 35/region = Rect2( 640, 64, 64, 32 )
@@ -513,7 +508,7 @@
 35/shapes = [  ]
 35/z_index = 0
 36/name = "groundGrass_mownWide.png 36"
-36/texture = ExtResource( 6 )
+36/texture = ExtResource( 1 )
 36/tex_offset = Vector2( 0, 0 )
 36/modulate = Color( 1, 1, 1, 1 )
 36/region = Rect2( 288, 160, 32, 32 )
@@ -527,7 +522,7 @@
 36/shapes = [  ]
 36/z_index = 0
 37/name = "groundGrass_mownWide.png 37"
-37/texture = ExtResource( 6 )
+37/texture = ExtResource( 1 )
 37/tex_offset = Vector2( 0, 0 )
 37/modulate = Color( 1, 1, 1, 1 )
 37/region = Rect2( 288, 128, 32, 32 )
@@ -541,7 +536,7 @@
 37/shapes = [  ]
 37/z_index = 0
 38/name = "groundGrass_mownWide.png 38"
-38/texture = ExtResource( 6 )
+38/texture = ExtResource( 1 )
 38/tex_offset = Vector2( 0, 0 )
 38/modulate = Color( 1, 1, 1, 1 )
 38/region = Rect2( 64, 160, 32, 32 )
@@ -555,7 +550,7 @@
 38/shapes = [  ]
 38/z_index = 0
 39/name = "groundGrass_mownWide.png 39"
-39/texture = ExtResource( 6 )
+39/texture = ExtResource( 1 )
 39/tex_offset = Vector2( 0, 0 )
 39/modulate = Color( 1, 1, 1, 1 )
 39/region = Rect2( 64, 128, 32, 32 )
@@ -569,7 +564,7 @@
 39/shapes = [  ]
 39/z_index = 0
 40/name = "groundGrass_mownWide.png 40"
-40/texture = ExtResource( 6 )
+40/texture = ExtResource( 1 )
 40/tex_offset = Vector2( 0, 0 )
 40/modulate = Color( 1, 1, 1, 1 )
 40/region = Rect2( 672, 224, 32, 32 )
@@ -583,7 +578,7 @@
 40/shapes = [  ]
 40/z_index = 0
 41/name = "groundGrass_mownWide.png 41"
-41/texture = ExtResource( 6 )
+41/texture = ExtResource( 1 )
 41/tex_offset = Vector2( 0, 0 )
 41/modulate = Color( 1, 1, 1, 1 )
 41/region = Rect2( 704, 64, 64, 32 )
@@ -597,7 +592,7 @@
 41/shapes = [  ]
 41/z_index = 0
 42/name = "groundGrass_mownWide.png 42"
-42/texture = ExtResource( 6 )
+42/texture = ExtResource( 1 )
 42/tex_offset = Vector2( 0, 0 )
 42/modulate = Color( 1, 1, 1, 1 )
 42/region = Rect2( 288, 96, 32, 32 )
@@ -611,7 +606,7 @@
 42/shapes = [  ]
 42/z_index = 0
 43/name = "groundGrass_mownWide.png 43"
-43/texture = ExtResource( 6 )
+43/texture = ExtResource( 1 )
 43/tex_offset = Vector2( 0, 0 )
 43/modulate = Color( 1, 1, 1, 1 )
 43/region = Rect2( 768, 160, 32, 32 )
@@ -625,7 +620,7 @@
 43/shapes = [  ]
 43/z_index = 0
 44/name = "groundGrass_mownWide.png 44"
-44/texture = ExtResource( 6 )
+44/texture = ExtResource( 1 )
 44/tex_offset = Vector2( 0, 0 )
 44/modulate = Color( 1, 1, 1, 1 )
 44/region = Rect2( 800, 160, 32, 32 )
@@ -639,7 +634,7 @@
 44/shapes = [  ]
 44/z_index = 0
 45/name = "groundGrass_mownWide.png 45"
-45/texture = ExtResource( 6 )
+45/texture = ExtResource( 1 )
 45/tex_offset = Vector2( 0, 0 )
 45/modulate = Color( 1, 1, 1, 1 )
 45/region = Rect2( 640, 0, 64, 32 )
@@ -653,7 +648,7 @@
 45/shapes = [  ]
 45/z_index = 0
 46/name = "groundGrass_mownWide.png 46"
-46/texture = ExtResource( 6 )
+46/texture = ExtResource( 1 )
 46/tex_offset = Vector2( 0, 0 )
 46/modulate = Color( 1, 1, 1, 1 )
 46/region = Rect2( 704, 0, 64, 32 )
@@ -667,7 +662,7 @@
 46/shapes = [  ]
 46/z_index = 0
 47/name = "groundGrass_mownWide.png 47"
-47/texture = ExtResource( 6 )
+47/texture = ExtResource( 1 )
 47/tex_offset = Vector2( 0, 0 )
 47/modulate = Color( 1, 1, 1, 1 )
 47/region = Rect2( 640, 96, 64, 32 )
@@ -681,7 +676,7 @@
 47/shapes = [  ]
 47/z_index = 0
 48/name = "groundGrass_mownWide.png 48"
-48/texture = ExtResource( 6 )
+48/texture = ExtResource( 1 )
 48/tex_offset = Vector2( 0, 0 )
 48/modulate = Color( 1, 1, 1, 1 )
 48/region = Rect2( 704, 96, 64, 32 )
@@ -695,7 +690,7 @@
 48/shapes = [  ]
 48/z_index = 0
 49/name = "groundGrass_mownWide.png 49"
-49/texture = ExtResource( 6 )
+49/texture = ExtResource( 1 )
 49/tex_offset = Vector2( 0, 0 )
 49/modulate = Color( 1, 1, 1, 1 )
 49/region = Rect2( 736, 320, 32, 32 )
@@ -709,7 +704,7 @@
 49/shapes = [  ]
 49/z_index = 0
 50/name = "groundGrass_mownWide.png 50"
-50/texture = ExtResource( 6 )
+50/texture = ExtResource( 1 )
 50/tex_offset = Vector2( 0, 0 )
 50/modulate = Color( 1, 1, 1, 1 )
 50/region = Rect2( 640, 256, 32, 32 )
@@ -723,7 +718,7 @@
 50/shapes = [  ]
 50/z_index = 0
 51/name = "groundGrass_mownWide.png 51"
-51/texture = ExtResource( 6 )
+51/texture = ExtResource( 1 )
 51/tex_offset = Vector2( 0, 0 )
 51/modulate = Color( 1, 1, 1, 1 )
 51/region = Rect2( 192, 640, 64, 64 )
@@ -737,7 +732,7 @@
 51/shapes = [  ]
 51/z_index = 0
 52/name = "groundGrass_mownWide.png 52"
-52/texture = ExtResource( 6 )
+52/texture = ExtResource( 1 )
 52/tex_offset = Vector2( 0, 0 )
 52/modulate = Color( 1, 1, 1, 1 )
 52/region = Rect2( 192, 512, 64, 64 )
@@ -751,7 +746,7 @@
 52/shapes = [  ]
 52/z_index = 0
 53/name = "groundGrass_mownWide.png 53"
-53/texture = ExtResource( 6 )
+53/texture = ExtResource( 1 )
 53/tex_offset = Vector2( 0, 0 )
 53/modulate = Color( 1, 1, 1, 1 )
 53/region = Rect2( 576, 512, 64, 64 )
@@ -765,7 +760,7 @@
 53/shapes = [  ]
 53/z_index = 0
 54/name = "groundGrass_mownWide.png 54"
-54/texture = ExtResource( 6 )
+54/texture = ExtResource( 1 )
 54/tex_offset = Vector2( 0, 0 )
 54/modulate = Color( 1, 1, 1, 1 )
 54/region = Rect2( 576, 640, 64, 64 )
@@ -779,7 +774,7 @@
 54/shapes = [  ]
 54/z_index = 0
 55/name = "groundGrass_mownWide.png 55"
-55/texture = ExtResource( 6 )
+55/texture = ExtResource( 1 )
 55/tex_offset = Vector2( 0, 0 )
 55/modulate = Color( 1, 1, 1, 1 )
 55/region = Rect2( 384, 512, 64, 64 )
@@ -793,7 +788,7 @@
 55/shapes = [  ]
 55/z_index = 0
 56/name = "groundGrass_mownWide.png 56"
-56/texture = ExtResource( 6 )
+56/texture = ExtResource( 1 )
 56/tex_offset = Vector2( 0, 0 )
 56/modulate = Color( 1, 1, 1, 1 )
 56/region = Rect2( 384, 640, 64, 64 )
@@ -807,7 +802,7 @@
 56/shapes = [  ]
 56/z_index = 0
 57/name = "groundGrass_mownWide.png 57"
-57/texture = ExtResource( 6 )
+57/texture = ExtResource( 1 )
 57/tex_offset = Vector2( 0, 0 )
 57/modulate = Color( 1, 1, 1, 1 )
 57/region = Rect2( 448, 576, 64, 64 )
@@ -821,7 +816,7 @@
 57/shapes = [  ]
 57/z_index = 0
 58/name = "groundGrass_mownWide.png 58"
-58/texture = ExtResource( 6 )
+58/texture = ExtResource( 1 )
 58/tex_offset = Vector2( 0, 0 )
 58/modulate = Color( 1, 1, 1, 1 )
 58/region = Rect2( 320, 576, 64, 64 )
@@ -835,7 +830,7 @@
 58/shapes = [  ]
 58/z_index = 0
 59/name = "groundGrass_mownWide.png 59"
-59/texture = ExtResource( 6 )
+59/texture = ExtResource( 1 )
 59/tex_offset = Vector2( 0, 0 )
 59/modulate = Color( 1, 1, 1, 1 )
 59/region = Rect2( 576, 192, 64, 64 )
@@ -849,7 +844,7 @@
 59/shapes = [  ]
 59/z_index = 0
 60/name = "groundGrass_mownWide.png 60"
-60/texture = ExtResource( 6 )
+60/texture = ExtResource( 1 )
 60/tex_offset = Vector2( 0, 0 )
 60/modulate = Color( 1, 1, 1, 1 )
 60/region = Rect2( 448, 192, 64, 64 )
@@ -862,104 +857,3 @@
 60/shape_one_way_margin = 0.0
 60/shapes = [  ]
 60/z_index = 0
-
-[sub_resource type="DynamicFont" id=1]
-size = 80
-use_filter = true
-font_data = ExtResource( 3 )
-
-[node name="Node2D" type="Node2D"]
-script = ExtResource( 1 )
-
-[node name="TileMap" type="TileMap" parent="."]
-tile_set = SubResource( 2 )
-format = 1
-tile_data = PoolIntArray( 0, 1073741853, 0, 1, 1073741853, 0, 2, 1073741853, 0, 3, 1073741853, 0, 4, 1073741853, 0, 5, 1073741853, 0, 6, 1073741853, 0, 7, 1073741853, 0, 8, 1073741853, 0, 9, 1073741853, 0, 10, 1073741853, 0, 11, 1073741853, 0, 12, 1073741853, 0, 13, 1073741853, 0, 14, 1073741853, 0, 15, 1073741853, 0, 16, 1073741853, 0, 17, 1073741853, 0, 18, 1073741853, 0, 65536, 1073741853, 0, 65537, 1073741853, 0, 65538, 1073741853, 0, 65539, 1073741853, 0, 65540, 1073741853, 0, 65541, 1073741853, 0, 65542, 1073741853, 0, 65543, 1073741853, 0, 65544, 1073741853, 0, 65545, 1073741853, 0, 65546, 1073741853, 0, 65547, 1073741853, 0, 65548, 1073741853, 0, 65549, 1073741853, 0, 65550, 1073741853, 0, 65551, 1073741853, 0, 65552, 1073741853, 0, 65553, 1073741853, 0, 65554, 1073741853, 0, 131072, 1073741853, 0, 131073, 1073741853, 0, 131074, 1073741853, 0, 131075, 1073741853, 0, 131076, 1073741853, 0, 131077, 1073741853, 0, 131078, 1073741853, 0, 131079, 1073741853, 0, 131080, 1073741853, 0, 131081, 1073741853, 0, 131082, 1073741853, 0, 131083, 1073741853, 0, 131084, 1073741853, 0, 131085, 1073741853, 0, 131086, 1073741853, 0, 131087, 1073741853, 0, 131088, 1073741853, 0, 131089, 1073741853, 0, 131090, 1073741853, 0, 196608, 1073741853, 0, 196609, 1073741853, 0, 196610, 1073741853, 0, 196611, 1073741853, 0, 196612, 1073741853, 0, 196613, 1073741853, 0, 196614, 1073741853, 0, 196615, 1073741853, 0, 196616, 1073741853, 0, 196617, 1073741853, 0, 196618, 1073741853, 0, 196619, 1073741853, 0, 196620, 1073741853, 0, 196621, 1073741853, 0, 196622, 1073741853, 0, 196623, 1073741853, 0, 196624, 1073741853, 0, 196625, 1073741853, 0, 196626, 1073741853, 0, 262144, 1073741853, 0, 262145, 1073741853, 0, 262146, 1073741853, 0, 262147, 1073741853, 0, 262148, 1073741853, 0, 262149, 1073741853, 0, 262150, 1073741853, 0, 262151, 1073741853, 0, 262152, 1073741853, 0, 262153, 1073741853, 0, 262154, 1073741853, 0, 262155, 1073741853, 0, 262156, 1073741853, 0, 262157, 1073741853, 0, 262158, 1073741853, 0, 262159, 1073741853, 0, 262160, 1073741853, 0, 262161, 1073741853, 0, 262162, 1073741853, 0, 327680, 1073741853, 0, 327681, 1073741853, 0, 327682, 1073741853, 0, 327683, 1073741853, 0, 327684, 1073741853, 0, 327685, 1073741853, 0, 327686, 1073741853, 0, 327687, 1073741853, 0, 327688, 1073741853, 0, 327689, 1073741853, 0, 327690, 1073741853, 0, 327691, 1073741853, 0, 327692, 1073741853, 0, 327693, 1073741853, 0, 327694, 1073741853, 0, 327695, 1073741853, 0, 327696, 1073741853, 0, 327697, 1073741853, 0, 327698, 1073741853, 0, 393216, 1073741853, 0, 393217, 1073741853, 0, 393218, 1073741853, 0, 393219, 1073741853, 0, 393220, 1073741853, 0, 393221, 1073741853, 0, 393222, 1073741853, 0, 393223, 1073741853, 0, 393224, 1073741853, 0, 393225, 1073741853, 0, 393226, 1073741853, 0, 393227, 1073741853, 0, 393228, 1073741853, 0, 393229, 1073741853, 0, 393230, 1073741853, 0, 393231, 1073741853, 0, 393232, 1073741853, 0, 393233, 1073741853, 0, 393234, 1073741853, 0, 458752, 1073741853, 0, 458753, 1073741853, 0, 458754, 1073741853, 0, 458755, 1073741853, 0, 458756, 1073741853, 0, 458757, 1073741853, 0, 458758, 1073741853, 0, 458759, 1073741853, 0, 458760, 1073741853, 0, 458761, 1073741853, 0, 458762, 1073741853, 0, 458763, 1073741853, 0, 458764, 1073741853, 0, 458765, 1073741853, 0, 458766, 1073741853, 0, 458767, 1073741853, 0, 458768, 1073741853, 0, 458769, 1073741853, 0, 458770, 1073741853, 0, 524288, 1073741853, 0, 524289, 1073741853, 0, 524290, 1073741853, 0, 524291, 1073741853, 0, 524292, 1073741853, 0, 524293, 1073741853, 0, 524294, 1073741853, 0, 524295, 1073741853, 0, 524296, 1073741853, 0, 524297, 1073741853, 0, 524298, 1073741853, 0, 524299, 1073741853, 0, 524300, 1073741853, 0, 524301, 1073741853, 0, 524302, 1073741853, 0, 524303, 1073741853, 0, 524304, 1073741853, 0, 524305, 1073741853, 0, 524306, 1073741853, 0, 589824, 1073741853, 0, 589825, 1073741853, 0, 589826, 1073741853, 0, 589827, 1073741853, 0, 589828, 1073741853, 0, 589829, 1073741853, 0, 589830, 1073741853, 0, 589831, 1073741853, 0, 589832, 1073741853, 0, 589833, 1073741853, 0, 589834, 1073741853, 0, 589835, 1073741853, 0, 589836, 1073741853, 0, 589837, 1073741853, 0, 589838, 1073741853, 0, 589839, 1073741853, 0, 589840, 1073741853, 0, 589841, 1073741853, 0, 589842, 1073741853, 0, 655360, 1073741853, 0, 655361, 1073741853, 0, 655362, 1073741853, 0, 655363, 1073741853, 0, 655364, 1073741853, 0, 655365, 1073741853, 0, 655366, 1073741853, 0, 655367, 1073741853, 0, 655368, 1073741853, 0, 655369, 1073741853, 0, 655370, 1073741853, 0, 655371, 1073741853, 0, 655372, 1073741853, 0, 655373, 1073741853, 0, 655374, 1073741853, 0, 655375, 1073741853, 0, 655376, 1073741853, 0, 655377, 1073741853, 0, 655378, 1073741853, 0, 720896, 1073741853, 0, 720897, 1073741853, 0, 720898, 1073741853, 0, 720899, 1073741853, 0, 720900, 1073741853, 0, 720901, 1073741853, 0, 720902, 1073741853, 0, 720903, 1073741853, 0, 720904, 1073741853, 0, 720905, 1073741853, 0, 720906, 1073741853, 0, 720907, 1073741853, 0, 720908, 1073741853, 0, 720909, 1073741853, 0, 720910, 1073741853, 0, 720911, 1073741853, 0, 720912, 1073741853, 0, 720913, 1073741853, 0, 720914, 1073741853, 0 )
-
-[node name="Xapa1" type="Sprite" parent="."]
-position = Vector2( 192, 168 )
-scale = Vector2( 0.311024, 0.311024 )
-texture = ExtResource( 5 )
-
-[node name="Xapa6" type="Sprite" parent="."]
-position = Vector2( 1212, 708 )
-scale = Vector2( 0.311024, 0.311024 )
-texture = ExtResource( 5 )
-
-[node name="Xapa3" type="Sprite" parent="."]
-position = Vector2( 444, 564 )
-scale = Vector2( 0.311024, 0.311024 )
-texture = ExtResource( 5 )
-
-[node name="Xapa8" type="Sprite" parent="."]
-position = Vector2( 1188, 12 )
-scale = Vector2( 0.311024, 0.311024 )
-texture = ExtResource( 5 )
-
-[node name="Xapa2" type="Sprite" parent="."]
-position = Vector2( 984, 312 )
-scale = Vector2( 0.320866, 0.320866 )
-texture = ExtResource( 4 )
-
-[node name="Xapa4" type="Sprite" parent="."]
-position = Vector2( 792, 768 )
-scale = Vector2( 0.320866, 0.320866 )
-texture = ExtResource( 4 )
-
-[node name="Xapa7" type="Sprite" parent="."]
-position = Vector2( 24, 588 )
-scale = Vector2( 0.320866, 0.320866 )
-texture = ExtResource( 4 )
-
-[node name="Xapa5" type="Sprite" parent="."]
-position = Vector2( 552, -24 )
-scale = Vector2( 0.320866, 0.320866 )
-texture = ExtResource( 4 )
-
-[node name="Inici" type="Button" parent="."]
-margin_left = 492.0
-margin_top = 348.0
-margin_right = 734.0
-margin_bottom = 436.0
-custom_fonts/font = ExtResource( 2 )
-text = "JUGAR"
-
-[node name="Huma" type="Button" parent="."]
-margin_left = 670.0
-margin_top = 348.0
-margin_right = 898.0
-margin_bottom = 436.0
-custom_fonts/font = ExtResource( 2 )
-text = "vs. Huma"
-
-[node name="Robot" type="Button" parent="."]
-margin_left = 324.0
-margin_top = 348.0
-margin_right = 552.0
-margin_bottom = 436.0
-custom_fonts/font = ExtResource( 2 )
-text = "vs. Robot"
-
-[node name="Surt" type="Button" parent="."]
-margin_left = 492.0
-margin_top = 516.0
-margin_right = 734.0
-margin_bottom = 604.0
-custom_fonts/font = ExtResource( 2 )
-text = "SORTIR"
-
-[node name="Label" type="Label" parent="."]
-margin_left = 240.0
-margin_top = 180.0
-margin_right = 972.0
-margin_bottom = 264.0
-custom_colors/font_color = Color( 0.258824, 0.258824, 0.258824, 1 )
-custom_colors/font_outline_modulate = Color( 1, 1, 1, 1 )
-custom_colors/font_color_shadow = Color( 0.886275, 0.262745, 0.262745, 1 )
-custom_fonts/font = SubResource( 1 )
-text = "Futbol amb xapes"
-
-[connection signal="pressed" from="Inici" to="." method="_on_Inici_pressed"]
-[connection signal="pressed" from="Huma" to="." method="_on_Inici_pressed"]
-[connection signal="pressed" from="Robot" to="." method="_on_Inici_pressed"]
-[connection signal="pressed" from="Surt" to="." method="_on_Surt_pressed"]

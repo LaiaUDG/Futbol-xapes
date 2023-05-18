@@ -8,15 +8,42 @@
 
 config_version=4
 
+_global_script_classes=[ {
+"base": "RigidBody2D",
+"class": "Xapa",
+"language": "GDScript",
+"path": "res://Scripts/Xapa.gd"
+} ]
+_global_script_class_icons={
+"Xapa": ""
+}
+
 [application]
 
 config/name="Futbol xapes"
-run/main_scene="res://Escenes/Inici.tscn"
+run/main_scene="res://Escenes/JOC.tscn"
 config/icon="res://icon.png"
+
+[autoload]
+
+Singleton="*res://Singleton.gd"
+
+[display]
+
+window/size/width=1216
+window/size/height=768
 
 [gui]
 
 common/drop_mouse_on_gui_input_disabled=true
+
+[input]
+
+premer={
+"deadzone": 0.5,
+"events": [ Object(InputEventMouseButton,"resource_local_to_scene":false,"resource_name":"","device":-1,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"button_mask":0,"position":Vector2( 0, 0 ),"global_position":Vector2( 0, 0 ),"factor":1.0,"button_index":1,"pressed":false,"doubleclick":false,"script":null)
+ ]
+}
 
 [physics]
 

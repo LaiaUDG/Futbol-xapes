@@ -1,8 +1,8 @@
 [gd_resource type="DynamicFont" load_steps=2 format=2]
 
-[ext_resource path="res://Deutsch.ttf" type="DynamicFontData" id=1]
+[ext_resource path="res://aAvocadoTaco.ttf" type="DynamicFontData" id=1]
 
 [resource]
-size = 34
+size = 32
 use_filter = true
 font_data = ExtResource( 1 )
