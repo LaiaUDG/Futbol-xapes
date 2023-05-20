@@ -2,9 +2,10 @@
 
 [ext_resource path="res://aAvocadoTaco.ttf" type="DynamicFontData" id=1]
 [ext_resource path="res://FONT.tres" type="DynamicFont" id=2]
-[ext_resource path="res://Escenes/HUD.gd" type="Script" id=3]
+[ext_resource path="res://Scripts/HUD.gd" type="Script" id=3]
 [ext_resource path="res://Assets/xapa 1.png" type="Texture" id=4]
 [ext_resource path="res://Assets/xapa 2.png" type="Texture" id=5]
+
 
 [sub_resource type="DynamicFont" id=1]
 size = 50

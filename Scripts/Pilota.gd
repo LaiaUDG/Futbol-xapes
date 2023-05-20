@@ -4,6 +4,7 @@ var _posInicial: Vector2
 var respawn = false;
 
 func _ready():
+	add_to_group("Pilota")
 	pass
 
 func set_pos_inicial(pos:Vector2):

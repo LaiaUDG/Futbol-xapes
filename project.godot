@@ -17,7 +17,7 @@ _global_script_classes=[ {
 "base": "RigidBody2D",
 "class": "Pilota",
 "language": "GDScript",
-"path": "res://Escenes/Pilota.gd"
+"path": "res://Scripts/Pilota.gd"
 }, {
 "base": "RigidBody2D",
 "class": "Xapa",
