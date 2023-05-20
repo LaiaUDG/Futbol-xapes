@@ -3,7 +3,7 @@ extends Node2D
 
 var _xapa:=preload("res://Escenes/Xapa.tscn")
 var _bola:=preload("res://Escenes/Pilota.tscn")
-var pilota:Pilota
+var pilota
 var rng = RandomNumberGenerator.new()
 var torn
 

@@ -5,7 +5,7 @@ var respawn = false;
 
 func _ready():
 	add_to_group("Pilota")
-	pass
+	print(get_tree().get_nodes_in_group("Pilota")[0].global_position)
 
 func set_pos_inicial(pos:Vector2):
 	position = pos
