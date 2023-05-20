@@ -3,6 +3,8 @@
 [ext_resource path="res://aAvocadoTaco.ttf" type="DynamicFontData" id=1]
 
 [resource]
-size = 40
+size = 50
+outline_size = 3
+outline_color = Color( 0.929412, 0.929412, 0.929412, 1 )
 use_filter = true
 font_data = ExtResource( 1 )

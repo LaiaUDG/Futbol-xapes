@@ -1,0 +1,246 @@
+[gd_scene load_steps=7 format=2]
+
+[ext_resource path="res://aAvocadoTaco.ttf" type="DynamicFontData" id=1]
+[ext_resource path="res://FONT.tres" type="DynamicFont" id=2]
+[ext_resource path="res://Escenes/HUD.gd" type="Script" id=3]
+[ext_resource path="res://Assets/xapa 1.png" type="Texture" id=4]
+[ext_resource path="res://Assets/xapa 2.png" type="Texture" id=5]
+
+[sub_resource type="DynamicFont" id=1]
+size = 50
+use_filter = true
+font_data = ExtResource( 1 )
+
+[node name="CanvasLayer" type="CanvasLayer"]
+script = ExtResource( 3 )
+
+[node name="Equip A" type="Label" parent="."]
+margin_left = 15.0
+margin_top = 30.0
+margin_right = 184.0
+margin_bottom = 75.0
+custom_fonts/font = ExtResource( 2 )
+text = "Equip A"
+
+[node name="Equip A2" type="Label" parent="."]
+margin_left = 16.0
+margin_top = 897.0
+margin_right = 233.0
+margin_bottom = 942.0
+custom_fonts/font = ExtResource( 2 )
+text = "Banqueta:"
+
+[node name="Torn de" type="Label" parent="."]
+margin_left = 568.0
+margin_top = 83.0
+margin_right = 743.0
+margin_bottom = 128.0
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+custom_fonts/font = ExtResource( 2 )
+text = "Torn de:"
+
+[node name="Temps A" type="Label" parent="."]
+margin_left = 400.0
+margin_top = 27.0
+margin_right = 447.0
+margin_bottom = 67.0
+custom_colors/font_color = Color( 0.94902, 0.278431, 0.278431, 1 )
+custom_fonts/font = ExtResource( 2 )
+text = "10"
+
+[node name="TTorn" type="Label" parent="."]
+margin_left = 243.0
+margin_top = 25.0
+margin_right = 350.0
+margin_bottom = 65.0
+custom_fonts/font = ExtResource( 2 )
+text = "Temps:"
+
+[node name="TTorn2" type="Label" parent="."]
+margin_left = 1008.0
+margin_top = 25.0
+margin_right = 1151.0
+margin_bottom = 65.0
+custom_fonts/font = ExtResource( 2 )
+text = "Temps:"
+
+[node name="Temps B" type="Label" parent="."]
+margin_left = 1164.0
+margin_top = 25.0
+margin_right = 1211.0
+margin_bottom = 65.0
+custom_colors/font_color = Color( 0.94902, 0.278431, 0.278431, 1 )
+custom_fonts/font = ExtResource( 2 )
+text = "10"
+
+[node name="TEMPS total" type="Label" parent="."]
+margin_left = 689.0
+margin_top = 25.0
+margin_right = 822.0
+margin_bottom = 80.0
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+custom_fonts/font = SubResource( 1 )
+text = "00:00"
+
+[node name="Gols A" type="Label" parent="."]
+margin_left = 611.0
+margin_top = 24.0
+margin_right = 645.0
+margin_bottom = 79.0
+custom_fonts/font = SubResource( 1 )
+text = "0"
+
+[node name="Gols B" type="Label" parent="."]
+margin_left = 878.0
+margin_top = 23.0
+margin_right = 912.0
+margin_bottom = 78.0
+custom_fonts/font = SubResource( 1 )
+text = "0"
+
+[node name="Equip B" type="Label" parent="."]
+margin_left = 1284.0
+margin_top = 24.0
+margin_right = 1453.0
+margin_bottom = 69.0
+custom_fonts/font = ExtResource( 2 )
+text = "Equip B"
+
+[node name="Torn Equip" type="Label" parent="."]
+margin_left = 771.0
+margin_top = 84.0
+margin_right = 940.0
+margin_bottom = 129.0
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+custom_fonts/font = ExtResource( 2 )
+text = "Equip B"
+
+[node name="BA1" type="Label" parent="."]
+margin_left = 280.0
+margin_top = 834.0
+margin_right = 335.0
+margin_bottom = 874.0
+custom_fonts/font = ExtResource( 2 )
+text = "00"
+
+[node name="A1" type="Sprite" parent="BA1"]
+position = Vector2( 25, 80 )
+scale = Vector2( 0.1, 0.1 )
+texture = ExtResource( 4 )
+
+[node name="BA2" type="Label" parent="."]
+margin_left = 379.0
+margin_top = 836.0
+margin_right = 434.0
+margin_bottom = 876.0
+custom_fonts/font = ExtResource( 2 )
+text = "00"
+
+[node name="A2" type="Sprite" parent="BA2"]
+position = Vector2( 25.0001, 77 )
+scale = Vector2( 0.1, 0.1 )
+texture = ExtResource( 4 )
+
+[node name="BA3" type="Label" parent="."]
+margin_left = 485.0
+margin_top = 836.0
+margin_right = 540.0
+margin_bottom = 876.0
+custom_fonts/font = ExtResource( 2 )
+text = "00"
+
+[node name="A3" type="Sprite" parent="BA3"]
+position = Vector2( 22.9999, 76.0001 )
+scale = Vector2( 0.1, 0.1 )
+texture = ExtResource( 4 )
+
+[node name="BA4" type="Label" parent="."]
+margin_left = 591.0
+margin_top = 839.0
+margin_right = 646.0
+margin_bottom = 879.0
+custom_fonts/font = ExtResource( 2 )
+text = "00"
+
+[node name="A4" type="Sprite" parent="BA4"]
+position = Vector2( 25, 75.0001 )
+scale = Vector2( 0.1, 0.1 )
+texture = ExtResource( 4 )
+
+[node name="BA5" type="Label" parent="."]
+margin_left = 694.0
+margin_top = 839.0
+margin_right = 749.0
+margin_bottom = 879.0
+custom_fonts/font = ExtResource( 2 )
+text = "00"
+
+[node name="A5" type="Sprite" parent="BA5"]
+position = Vector2( 26.0001, 77.0001 )
+scale = Vector2( 0.1, 0.1 )
+texture = ExtResource( 4 )
+
+[node name="BB1" type="Label" parent="."]
+margin_left = 813.0
+margin_top = 840.0
+margin_right = 868.0
+margin_bottom = 880.0
+custom_fonts/font = ExtResource( 2 )
+text = "00"
+
+[node name="B1" type="Sprite" parent="BB1"]
+position = Vector2( 25.0001, 75 )
+scale = Vector2( 0.1, 0.1 )
+texture = ExtResource( 5 )
+
+[node name="BB2" type="Label" parent="."]
+margin_left = 922.0
+margin_top = 841.0
+margin_right = 977.0
+margin_bottom = 881.0
+custom_fonts/font = ExtResource( 2 )
+text = "00"
+
+[node name="B2" type="Sprite" parent="BB2"]
+position = Vector2( 27.0001, 75 )
+scale = Vector2( 0.1, 0.1 )
+texture = ExtResource( 5 )
+
+[node name="BB3" type="Label" parent="."]
+margin_left = 1042.0
+margin_top = 841.0
+margin_right = 1097.0
+margin_bottom = 881.0
+custom_fonts/font = ExtResource( 2 )
+text = "00"
+
+[node name="B3" type="Sprite" parent="BB3"]
+position = Vector2( 25.0001, 73 )
+scale = Vector2( 0.1, 0.1 )
+texture = ExtResource( 5 )
+
+[node name="BB4" type="Label" parent="."]
+margin_left = 1160.0
+margin_top = 839.0
+margin_right = 1215.0
+margin_bottom = 879.0
+custom_fonts/font = ExtResource( 2 )
+text = "00"
+
+[node name="B4" type="Sprite" parent="BB4"]
+position = Vector2( 25.0001, 73 )
+scale = Vector2( 0.1, 0.1 )
+texture = ExtResource( 5 )
+
+[node name="BB5" type="Label" parent="."]
+margin_left = 1271.0
+margin_top = 840.0
+margin_right = 1326.0
+margin_bottom = 880.0
+custom_fonts/font = ExtResource( 2 )
+text = "00"
+
+[node name="B5" type="Sprite" parent="BB5"]
+position = Vector2( 25.0001, 71.9999 )
+scale = Vector2( 0.1, 0.1 )
+texture = ExtResource( 5 )
