@@ -4,7 +4,6 @@ export var Equip_B := false;
 const xapa_B = preload("res://Assets/xapa 2.png")
 const xapa_A = preload("res://Assets/xapa 1.png") 
 var _posInicial: Vector2  
-var friccio = -10
 
 var triada = false
 var vel:int
