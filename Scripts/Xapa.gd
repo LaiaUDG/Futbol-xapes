@@ -5,10 +5,14 @@ const xapa_B = preload("res://Assets/xapa 2.png")
 const xapa_A = preload("res://Assets/xapa 1.png") 
 var _posInicial: Vector2  
 
+var pilota
 var triada = false
+var vel_p:int
 var vel:int
 signal Proper_Torn()
 var torn = false
+var quiet
+
 
 var Moviment:Vector2
 
@@ -20,30 +24,44 @@ func _ready():
 		$Xapa.set_texture(xapa_B)
 		$Vec_DIR.Equip_B=true
 	else:
-		$Xapa.set_texture(xapa_A)
+		$Xapa.set_texture(xapa_A)	
+	pilota = get_tree().get_nodes_in_group("Pilota")[0]
+
 		
 func Tirar(potencia : Vector2) -> void:
 	Moviment = potencia
+	apply_central_impulse(Moviment)
+	triada = true	
 	Singleton.treure_torn()
-	apply_central_impulse(Moviment)	
-	triada = true
 
 
 func set_pos_inicial(pos:Vector2):
 	position = pos
 	_posInicial = pos # per quan es faci respawn 	
-
+	rotation_degrees = 0
+	
+func respawn():
+	position = _posInicial
 
 func _integrate_forces(state):
-	rotation_degrees = 0
-	vel = sqrt((linear_velocity.x*linear_velocity.x)+(linear_velocity.y*linear_velocity.y))#.normalize
-	if triada && (vel<1.3):
-		print("ara")
-		triada = false
-		$Xapa.modulate=Color(1,1,1)
-		if$Vec_DIR.is_in_group("Llençada"):
-			$Vec_DIR.remove_from_group("Llençada")
-		emit_signal("Proper_Torn")
+	if Singleton.respawn && position!=_posInicial:
+		state.transform.origin=_posInicial
+		state.linear_velocity=Vector2(0,0)
+		state.angular_velocity=0
+		Singleton.respawn = false
+	else:
+		#print("NOOO")
+		rotation_degrees = 0
+		print (vel)
+		vel = sqrt((linear_velocity.x*linear_velocity.x)+(linear_velocity.y*linear_velocity.y))
+		if triada && (vel<1.3):
+			print("ara")
+			triada = false
+			$Xapa.modulate=Color(1,1,1)
+			if$Vec_DIR.is_in_group("Llençada"):
+				$Vec_DIR.remove_from_group("Llençada")
+			emit_signal("Proper_Torn")
+
 
 
 func _on_Xapa_mouse_entered():
@@ -67,3 +85,7 @@ func _on_Vec_DIR_Suspes():
 	$Vec_DIR.suspendre()
 	triada =false
 	$Xapa.modulate=Color(1,1,1)
+
+
+func _on_Xapa_body_entered(body):
+	print("xapa xoca")

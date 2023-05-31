@@ -1,11 +1,10 @@
-[gd_scene load_steps=14 format=2]
+[gd_scene load_steps=13 format=2]
 
 [ext_resource path="res://JOC.tres" type="TileSet" id=1]
 [ext_resource path="res://Assets/groundTransparent_white.png" type="Texture" id=2]
 [ext_resource path="res://Assets/elements.png" type="Texture" id=3]
 [ext_resource path="res://Escenes/Porteria.tscn" type="PackedScene" id=4]
 [ext_resource path="res://Escenes/HUD.tscn" type="PackedScene" id=5]
-[ext_resource path="res://Escenes/Robot.tscn" type="PackedScene" id=6]
 [ext_resource path="res://Scripts/JOC.gd" type="Script" id=7]
 
 [sub_resource type="Environment" id=7]
@@ -308,7 +307,7 @@ position = Vector2( 556.35, 369.59 )
 scale = Vector2( 97.5552, -3148.56 )
 
 [node name="A2" type="Position2D" parent="."]
-position = Vector2( 275.797, 479.988 )
+position = Vector2( 276.919, 395.803 )
 scale = Vector2( 97.5552, -3148.56 )
 
 [node name="A1" type="Position2D" parent="."]
@@ -329,7 +328,7 @@ rotation = -1.57079
 scale = Vector2( 97.5552, -3148.56 )
 
 [node name="B2" type="Position2D" parent="."]
-position = Vector2( 1187.8, 479.988 )
+position = Vector2( 1146.53, 479.988 )
 rotation = -1.57079
 scale = Vector2( 97.5552, -3148.56 )
 
@@ -343,9 +342,6 @@ position = Vector2( 1073.59, 713.988 )
 scale = Vector2( 97.5552, -3148.56 )
 
 [node name="HUD" parent="." instance=ExtResource( 5 )]
-
-[node name="RigidBody2D" parent="." instance=ExtResource( 6 )]
-position = Vector2( 737, 193 )
 
 [connection signal="timeout" from="Timer" to="." method="_on_Timer_timeout"]
 [connection signal="Gol" from="Porteria A" to="." method="_on_Porteria_A_Gol"]

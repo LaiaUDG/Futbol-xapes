@@ -10,10 +10,10 @@ func _ready():
 		$CanvasLayer.visible=0
 
 func _on_Inici_pressed():
-	#$Inici.visible = 0
-	Singleton.Joc()
-	#$Huma.visible = 1
-	#$Robot.visible = 1
+	$Inici.visible = 0
+	#Singleton.Joc()
+	$Huma.visible = 1
+	$Robot.visible = 1
 
 func mostrar_anterior():
 	if Singleton.Punts_E1>Singleton.Punts_E2: 
@@ -55,3 +55,13 @@ func Mostrar_resultats():
 	$CanvasLayer/PuntsA.text = str(Singleton.Punts_E1)
 	$CanvasLayer/PuntsB.text = str(Singleton.Punts_E2)
 	$CanvasLayer.visible=1
+
+
+func _on_Huma_pressed():
+	Singleton._Joc2 = false
+	Singleton.Joc()
+
+
+func _on_Robot_pressed():
+	Singleton._Joc2 = true
+	Singleton.Joc()

@@ -1056,6 +1056,6 @@ custom_fonts/font = SubResource( 4 )
 text = "Equip B"
 
 [connection signal="pressed" from="Inici" to="." method="_on_Inici_pressed"]
-[connection signal="pressed" from="Huma" to="." method="_on_Inici_pressed"]
-[connection signal="pressed" from="Robot" to="." method="_on_Inici_pressed"]
+[connection signal="pressed" from="Huma" to="." method="_on_Huma_pressed"]
+[connection signal="pressed" from="Robot" to="." method="_on_Robot_pressed"]
 [connection signal="pressed" from="Surt" to="." method="_on_Surt_pressed"]

@@ -20,6 +20,11 @@ _global_script_classes=[ {
 "path": "res://Scripts/Pilota.gd"
 }, {
 "base": "RigidBody2D",
+"class": "Robot",
+"language": "GDScript",
+"path": "res://Scripts/Robot.gd"
+}, {
+"base": "RigidBody2D",
 "class": "Xapa",
 "language": "GDScript",
 "path": "res://Scripts/Xapa.gd"
@@ -27,13 +32,14 @@ _global_script_classes=[ {
 _global_script_class_icons={
 "Inici": "",
 "Pilota": "",
+"Robot": "",
 "Xapa": ""
 }
 
 [application]
 
 config/name="Futbol xapes"
-run/main_scene="res://Escenes/JOC.tscn"
+run/main_scene="res://Escenes/Inici.tscn"
 config/icon="res://icon.png"
 
 [autoload]

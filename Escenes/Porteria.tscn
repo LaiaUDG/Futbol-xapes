@@ -2,7 +2,6 @@
 
 [ext_resource path="res://Scripts/Porteria.gd" type="Script" id=1]
 
-
 [sub_resource type="RectangleShape2D" id=4]
 extents = Vector2( 17.4628, 1.74238 )
 

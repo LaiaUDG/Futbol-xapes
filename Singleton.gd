@@ -1,9 +1,10 @@
 extends Node
 
-var Partit := preload("res://Escenes/JOC.tscn");
-var Inici := preload("res://Escenes/Inici.tscn");
+const Partit := preload("res://Escenes/JOC.tscn");
+const Inici := preload("res://Escenes/Inici.tscn");
+const PILOTA :=preload("res://Escenes/Pilota.tscn");
 
-export var Punts_E1:int
+var Punts_E1:int
 var Punts_E2:int
 var TornAnt:int
 var Torn:int
@@ -12,8 +13,12 @@ var _TempsTorn:int
 var _Acabada:bool
 var Equip1
 var Equip2
+var _Joc2
+var _pilota
+var respawn
 
 func _init():
+	respawn = false
 	Punts_E1=0;Punts_E2=0;
 	_Acabada = false;
 	Equip1 = "Equip A"
@@ -22,6 +27,8 @@ func _init():
 	TornAnt=0
 	_TempsTotal=90
 	_TempsTorn=15
+	_Joc2 = false
+	_pilota = PILOTA.instance()
 	
 func treure_torn():
 	print("Torn act:"+str(Torn))
@@ -37,6 +44,7 @@ func seguent_torn():
 		Torn=1
 
 func Pantalla_final():
+	_Joc2=false
 	_Acabada=true
 	get_tree().change_scene_to(Inici)
 
